@@ -166,6 +166,15 @@
       "alter_ego": "Norrin Radd",
       "first_appearance": "The Fantastic Four #48",
       "characters": "Norrin Radd"
+    },
+    {
+      "superhero": "Deadpool",
+      "publisher": "Marvel Comics",
+      "alter_ego": "Wade Winston Wilson",
+      "first_appearance": "New Mutants (vol. 1) #98",
+      "characters": "Wade Winston Wilson",
+      "alt_img": "https://i.pinimg.com/originals/a4/c5/8e/a4c58e98cca07698ff386dc02fe0218d.jpg",
+      "id": "nUPTjJ9"
     }
   ]
 }

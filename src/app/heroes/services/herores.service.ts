@@ -25,4 +25,16 @@ export class HeroresService {
 
     return this.http.get<IHeroe[]>(this.urlBase, { params });
   }
+
+  gurdarHeroe(heroe: IHeroe): Observable<IHeroe>{
+    return this.http.post<IHeroe>(this.urlBase, heroe);
+  }
+
+  editarHeroe(heroe: IHeroe): Observable<IHeroe>{
+    return this.http.put<IHeroe>(`${this.urlBase}/${heroe.id}`, heroe);
+  }
+
+  eliminarHeroe(id: string): Observable<IHeroe>{
+    return this.http.delete<IHeroe>(`${this.urlBase}/${id}`);
+  }
 }
